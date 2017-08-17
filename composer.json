@@ -1,0 +1,25 @@
+{
+    "name": "airani/yii2-flysystem",
+    "description": "Yii2 Flysystem Component",
+    "keywords": ["yii2", "flysystem", "filesystem", "component"],
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "league/flysystem": "^1.0"
+    },
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/airani/yii2-flysystem/issues",
+        "source": "https://github.com/airani/yii2-flysystem"
+    },
+    "authors": [
+        {
+            "name": "Ali Irani",
+            "email": "ali@irani.im"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": { "airani\\flysystem\\": "src" }
+    }
+}
