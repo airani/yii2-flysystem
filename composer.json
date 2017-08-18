@@ -4,8 +4,8 @@
     "keywords": ["yii2", "flysystem", "filesystem", "component"],
     "type": "yii2-extension",
     "require": {
-        "yiisoft/yii2": "^2.0",
-        "league/flysystem": "^1.0"
+        "yiisoft/yii2": "~2.0",
+        "league/flysystem": "~1.0"
     },
     "license": "BSD-3-Clause",
     "support": {
@@ -21,5 +21,11 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": { "airani\\flysystem\\": "src" }
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }
